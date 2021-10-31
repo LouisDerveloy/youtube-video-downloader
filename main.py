@@ -2,6 +2,8 @@ from pytube import YouTube
 import sys
 import os
 
+#python main.py build
+
 def get_Video(): return YouTube(sys.argv[1])
 
 def save(video):
